@@ -13,7 +13,7 @@ def magic_bubble_sort(nums: list[int]):
             should_swap = False
             if is_current_even and not is_next_even:
                 should_swap = True
-            elif current > next_:
+            elif is_current_even == is_next_even and current > next_:
                 should_swap = True
 
             if should_swap:
